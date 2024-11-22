@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.MuiButtonBase-root {
+.WorksContainer .MuiButtonBase-root {
   max-width: 160px !important;
   width: 100% !important;
   background-color: transparent !important; /* Default background */
@@ -31,7 +31,7 @@
   transition: background-color 0.3s ease, color 0.3s ease !important; /* Smooth transition */
 }
 
-.MuiButtonBase-root[aria-selected="true"] {
+.WorksContainer .MuiButtonBase-root[aria-selected="true"] {
   background-color: var(
     --primary-color
   ) !important; /* Highlighted background */
@@ -39,29 +39,29 @@
   font-weight: 700 !important;
 }
 
-.MuiButtonBase-root:first-child {
+.WorksContainer .MuiButtonBase-root:first-child {
   border-right: 1px solid #1e1e1e !important;
   border-radius: 12px 0 0 12px !important;
 }
 
-.MuiButtonBase-root:last-child {
+.WorksContainer .MuiButtonBase-root:last-child {
   border-left: 1px solid #1e1e1e !important;
   border-radius: 0 12px 12px 0 !important;
 }
 
-.MuiTabs-scroller {
+.WorksContainer .MuiTabs-scroller {
   display: flex !important;
   justify-content: center !important;
   margin-top: 20px;
 }
-.MuiTabPanel-root {
+.WorksContainer .MuiTabPanel-root {
   display: flex !important;
   gap: 20px !important;
 }
-.MuiTabPanel-root {
+.WorksContainer .MuiTabPanel-root {
   padding: 0 !important;
 }
-.css-1qltlow-MuiTabs-indicator {
+.WorksContainer .MuiTabs-indicator {
   display: none !important;
 }
 .TabsCards {
@@ -103,10 +103,10 @@
   .WorkTabs {
     margin-top: 40px !important;
   }
-  .MuiTabPanel-root {
+  .WorksContainer .MuiTabPanel-root {
     flex-direction: column !important;
   }
-  .MuiTabs-flexContainer {
+  .WorksContainer .MuiTabs-flexContainer {
     align-items: center !important;
     justify-content: center !important;
   }

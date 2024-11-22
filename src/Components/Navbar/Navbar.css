@@ -68,14 +68,14 @@
 }
 
 .navbar-button .MuiButton-root {
-  background-color: var(--primary-color, #94d93b);
-  color: #fff;
-  font-weight: bold;
-  text-transform: none;
+  background-color: var(--primary-color, #94d93b) !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  text-transform: none !important;
 }
 
 .navbar-button .MuiButton-root:hover {
-  background-color: #7ab32e;
+  background-color: #7ab32e !important;
 }
 
 /* Responsive Design */
