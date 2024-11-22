@@ -6,8 +6,8 @@ import Home from "./Pages/Home.jsx";
 import Contact from "./Pages/Contact.jsx";
 import About from "./Pages/About.jsx";
 import Layout from "./Pages/Layout.jsx";
-import JoinAsPassenger from "./Pages/joinAsPassenger.jsx";
-import JoinAsDriver from "./Pages/joinAsDriver.jsx";
+import JoinAsPassenger from "./Pages/JoinAsPassenger.jsx";
+import JoinAsDriver from "./Pages/JoinAsDriver.jsx";
 
 const router = createBrowserRouter([
   {
