@@ -1,5 +1,4 @@
 import React from "react";
-import "./HowWeWork.css";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
@@ -11,6 +10,8 @@ import WorkDaysImg from "../../assets/briefcase.png";
 import PriceNote from "../../assets/PriceNote.svg";
 import Booking from "../../assets/Booking.svg";
 
+import "./HowWeWork.css";
+
 const HowWeWork = () => {
   const [value, setValue] = React.useState("1");
 
@@ -18,124 +19,95 @@ const HowWeWork = () => {
     setValue(newValue);
   };
 
-  const tabStyles = {
-    maxWidth: "160px",
-    width: "100%",
-    border: "1px solid #1e1e1e",
-    borderRadius: 0,
-    backgroundColor: "transparent",
-    transition: "background-color 0.3s ease, color 0.3s ease",
-    "&.Mui-selected": {
-      backgroundColor: "var(--primary-color)",
-      color: "var(--text-color)",
-      fontWeight: 700,
-    },
-    "&:first-of-type": {
-      borderRadius: "12px 0 0 12px",
-      borderRight: "1px solid #1e1e1e",
-    },
-    "&:last-of-type": {
-      borderRadius: "0 12px 12px 0",
-      borderLeft: "1px solid #1e1e1e",
-    },
-  };
-
   return (
-    <div className="WorksContainer">
-      <div className="WorkTextContainer">
-        <div className="WorkText">
-          <h1>
-            How <span>Mr. CarLift</span> Works
-          </h1>
-          <p>
-            Whether you're a passenger looking for reliable rides or a driver
-            ready to earn, our simple process makes commuting hassle-free.
-            Select your role to get started!
-          </p>
-        </div>
-        <div className="WorkTabs">
-          <TabContext value={value}>
-            <TabList
-              onChange={handleChange}
-              sx={{ display: "flex", justifyContent: "center", mt: 2 }}
-            >
-              <Tab label="Passengers" value="1" sx={tabStyles} />
-              <Tab label="Drivers" value="2" sx={tabStyles} />
-            </TabList>
+    <>
+      <div className="WorksContainer">
+        <div className="WorkTextContainer">
+          <div className="WorkText">
+            <h1>
+              How <span>Mr. CarLift</span> Works
+            </h1>
+            <p>
+              Whether you're a passenger looking for reliable rides or a driver
+              ready to earn, our simple process makes commuting hassle-free.
+              Select your role to get started!
+            </p>
+          </div>
+          <div className="WorkTabs">
+            <TabContext value={value}>
+              <TabList onChange={handleChange}>
+                <Tab label="Passengers" value="1" />
+                <Tab label="Drivers" value="2" />
+              </TabList>
 
-            <div className="TabsCards">
-              <TabPanel
-                value="1"
-                sx={{ display: "flex", gap: 2, padding: 0, flexWrap: "wrap" }}
-              >
-                <WorkCard
-                  img={routeImg}
-                  title={"Select Your Route"}
-                  description={
-                    "Choose your starting point and destination for a seamless commute."
-                  }
-                />
-                <WorkCard
-                  img={WorkDaysImg}
-                  title={"Choose Working Days"}
-                  description={
-                    "Pick the days of the week you need our service for your regular commute."
-                  }
-                />
-                <WorkCard
-                  img={PriceNote}
-                  title={"Estimate Your Price"}
-                  description={
-                    "Get an instant fare estimate based on your route and selected days."
-                  }
-                />
-                <WorkCard
-                  img={Booking}
-                  title={"Book Ride"}
-                  description={
-                    "Reach out to finalize your booking and secure your monthly pick & drop."
-                  }
-                />
-              </TabPanel>
+              <div className="TabsCards">
+                <TabPanel value="1">
+                  <WorkCard
+                    img={routeImg}
+                    title={"Select Your Route"}
+                    description={
+                      "Choose your starting point and destination for a seamless commute."
+                    }
+                  />
+                  <WorkCard
+                    img={WorkDaysImg}
+                    title={"Choose Working Days"}
+                    description={
+                      "Pick the days of the week you need our service for your regular commute."
+                    }
+                  />
+                  <WorkCard
+                    img={PriceNote}
+                    title={"Estimate Your Price"}
+                    description={
+                      "Get an instant fare estimate based on your route and selected days."
+                    }
+                  />
+                  <WorkCard
+                    img={Booking}
+                    title={"Book Ride"}
+                    description={
+                      "Reach out to finalize your booking and secure your monthly pick & drop."
+                    }
+                  />
+                </TabPanel>
 
-              <TabPanel
-                value="2"
-                sx={{ display: "flex", gap: 2, padding: 0, flexWrap: "wrap" }}
-              >
-                <WorkCard
-                  img={routeImg}
-                  title={"Select Your Route"}
-                  description={
-                    "Choose your starting point and destination for a seamless commute."
-                  }
-                />
-                <WorkCard
-                  img={WorkDaysImg}
-                  title={"Choose Working Days"}
-                  description={
-                    "Pick the days of the week you need our service for your regular commute."
-                  }
-                />
-                <WorkCard
-                  img={PriceNote}
-                  title={"Estimate Your Price"}
-                  description={
-                    "Get an instant fare estimate based on your route and selected days."
-                  }
-                />
-                <WorkCard
-                  img={Booking}
-                  title={"Book Ride"}
-                  description={
-                    "Reach out to finalize your booking and secure your monthly pick & drop."
-                  }
-                />
-              </TabPanel>
-            </div>
-          </TabContext>
+                <TabPanel value="2">
+                  <WorkCard
+                    img={routeImg}
+                    title={"Select Your Route"}
+                    description={
+                      "Choose your starting point and destination for a seamless commute."
+                    }
+                  />
+                  <WorkCard
+                    img={WorkDaysImg}
+                    title={"Choose Working Days"}
+                    description={
+                      "Pick the days of the week you need our service for your regular commute."
+                    }
+                  />
+                  <WorkCard
+                    img={PriceNote}
+                    title={"Estimate Your Price"}
+                    description={
+                      "Get an instant fare estimate based on your route and selected days."
+                    }
+                  />
+                  <WorkCard
+                    img={Booking}
+                    title={"Book Ride"}
+                    description={
+                      "Reach out to finalize your booking and secure your monthly pick & drop."
+                    }
+                  />
+                </TabPanel>
+              </div>
+            </TabContext>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
