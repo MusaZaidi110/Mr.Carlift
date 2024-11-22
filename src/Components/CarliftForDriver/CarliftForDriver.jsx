@@ -1,6 +1,7 @@
 import React from "react";
 import "./CarliftForDriver.css";
 
+import CarIcon from "../../assets/CarIcon.svg";
 import Calendar from "../../assets/Calendar.svg";
 import Payments from "../../assets/Payments.svg";
 import DriverPlatform from "../../assets/DriverPlatform.svg";

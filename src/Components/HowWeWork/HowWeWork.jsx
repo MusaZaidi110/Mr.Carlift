@@ -10,6 +10,11 @@ import WorkDaysImg from "../../assets/briefcase.png";
 import PriceNote from "../../assets/PriceNote.svg";
 import Booking from "../../assets/Booking.svg";
 
+import Calendar from "../../assets/Calendar.svg";
+import Payments from "../../assets/Payments.svg";
+import DriverPlatform from "../../assets/DriverPlatform.svg";
+import Support from "../../assets/Support.svg";
+
 import "./HowWeWork.css";
 
 const HowWeWork = () => {
@@ -74,31 +79,31 @@ const HowWeWork = () => {
 
                 <TabPanel value="2">
                   <WorkCard
-                    img={routeImg}
-                    title={"Select Your Route"}
+                    img={Calendar}
+                    title={"Flexible Schedule"}
                     description={
-                      "Choose your starting point and destination for a seamless commute."
+                      "Work on your terms with hours that fit your lifestyle."
                     }
                   />
                   <WorkCard
-                    img={WorkDaysImg}
-                    title={"Choose Working Days"}
+                    img={Payments}
+                    title={"Competitive Payouts"}
                     description={
-                      "Pick the days of the week you need our service for your regular commute."
+                      "Earn more with our competitive rates and timely payments."
                     }
                   />
                   <WorkCard
-                    img={PriceNote}
-                    title={"Estimate Your Price"}
+                    img={DriverPlatform}
+                    title={"Simple Driver Platform"}
                     description={
-                      "Get an instant fare estimate based on your route and selected days."
+                      "Manage your rides easily with our intuitive driver app."
                     }
                   />
                   <WorkCard
-                    img={Booking}
-                    title={"Book Ride"}
+                    img={Support}
+                    title={"24/7 Driver Support"}
                     description={
-                      "Reach out to finalize your booking and secure your monthly pick & drop."
+                      "Get assistance whenever you need it with round-the-clock support."
                     }
                   />
                 </TabPanel>
