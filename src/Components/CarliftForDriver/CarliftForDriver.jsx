@@ -70,8 +70,7 @@ const CarliftForDriver = () => {
               <div className="CarliftForDrivertextSection">
                 <h1>24/7 Driver Support</h1>
                 <p>
-                  Get assistance whenever you need it with round-the-clock
-                  support.
+                  Get assistance when you need with round-the-clock support.
                 </p>
               </div>
             </div>
