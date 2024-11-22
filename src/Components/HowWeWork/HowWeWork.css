@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.css-1usuzwp-MuiButtonBase-root-MuiTab-root {
+.MuiButtonBase-root {
   max-width: 160px !important;
   width: 100% !important;
   background-color: transparent !important; /* Default background */
@@ -31,7 +31,7 @@
   transition: background-color 0.3s ease, color 0.3s ease !important; /* Smooth transition */
 }
 
-.css-1usuzwp-MuiButtonBase-root-MuiTab-root[aria-selected="true"] {
+.MuiButtonBase-root[aria-selected="true"] {
   background-color: var(
     --primary-color
   ) !important; /* Highlighted background */
@@ -39,26 +39,26 @@
   font-weight: 700 !important;
 }
 
-.css-1usuzwp-MuiButtonBase-root-MuiTab-root:first-child {
+.MuiButtonBase-root:first-child {
   border-right: 1px solid #1e1e1e !important;
   border-radius: 12px 0 0 12px !important;
 }
 
-.css-1usuzwp-MuiButtonBase-root-MuiTab-root:last-child {
+.MuiButtonBase-root:last-child {
   border-left: 1px solid #1e1e1e !important;
   border-radius: 0 12px 12px 0 !important;
 }
 
-.css-s2t35c-MuiTabs-scroller {
+.MuiTabs-scroller {
   display: flex !important;
   justify-content: center !important;
   margin-top: 20px;
 }
-.css-13xfq8m-MuiTabPanel-root {
+.MuiTabPanel-root {
   display: flex !important;
   gap: 20px !important;
 }
-.css-13xfq8m-MuiTabPanel-root {
+.MuiTabPanel-root {
   padding: 0 !important;
 }
 .css-1qltlow-MuiTabs-indicator {
@@ -103,10 +103,10 @@
   .WorkTabs {
     margin-top: 40px !important;
   }
-  .css-13xfq8m-MuiTabPanel-root {
+  .MuiTabPanel-root {
     flex-direction: column !important;
   }
-  .css-1wxkzlj-MuiTabs-flexContainer {
+  .MuiTabs-flexContainer {
     align-items: center !important;
     justify-content: center !important;
   }
