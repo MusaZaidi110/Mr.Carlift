@@ -48,8 +48,8 @@ body {
   font-family: "Poppins Regular";
 }
 .wrapper {
-  width: 96%;
-  margin: 0 auto;
+  width: 96% !important;
+  margin: 0 auto !important;
 }
 
 .button {

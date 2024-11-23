@@ -74,12 +74,17 @@
   padding: 30px;
   border-radius: 12px;
   border: 1.5px solid var(--primary-color);
+  max-width: 286px;
 }
 .Card .cardLogo {
-  padding: 14px 16px;
+  padding: 12px 14px;
   background-color: var(--primary-color);
   width: fit-content;
   border-radius: 50%;
+}
+.Card .cardLogo img {
+  width: 100%;
+  height: 100%;
 }
 .Card .cardText h1 {
   font-size: 18px;

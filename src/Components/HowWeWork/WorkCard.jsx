@@ -6,7 +6,7 @@ const WorkCard = ({ img, title, description }) => {
     <>
       <div className="Card">
         <div className="cardLogo">
-          <img src={img} alt="" height={27} width={25} />
+          <img src={img} alt="Card Images" />
         </div>
         <div className="cardText">
           <h1>{title}</h1>

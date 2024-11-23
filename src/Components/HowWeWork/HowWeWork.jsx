@@ -6,8 +6,7 @@ import TabPanel from "@mui/lab/TabPanel";
 import WorkCard from "./WorkCard";
 
 import routeImg from "../../assets/route.svg";
-import WorkDaysImg from "../../assets/briefcase.png";
-import PriceNote from "../../assets/PriceNote.svg";
+import PriceNote from "../../assets/dollarIcon.png";
 import Booking from "../../assets/Booking.svg";
 
 import Calendar from "../../assets/Calendar.svg";
@@ -55,7 +54,7 @@ const HowWeWork = () => {
                     }
                   />
                   <WorkCard
-                    img={WorkDaysImg}
+                    img={Calendar}
                     title={"Choose Working Days"}
                     description={
                       "Pick the days of the week you need our service for your regular commute."
