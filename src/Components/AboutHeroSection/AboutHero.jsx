@@ -8,7 +8,9 @@ const AboutHero = () => {
       <div className="AboutHeroContainer">
         <div className="AboutHeroContent">
           <div className="text">
-            <h1>About Mr.CarLift</h1>
+            <h1>
+              About <span>Mr.CarLift</span>
+            </h1>
             <p>
               "At Mr. Carlift, we make your daily commute easy, safe, and
               affordable. Whether you're a passenger or driver, we provide

@@ -58,6 +58,12 @@
   display: flex !important;
   gap: 20px !important;
 }
+.MuiTabs-flexContainer {
+  min-width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
 .WorksContainer .MuiTabPanel-root {
   padding: 0 !important;
 }

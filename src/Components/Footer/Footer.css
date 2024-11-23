@@ -59,6 +59,14 @@
   color: #fff;
   font-size: 16px;
 }
+.FooterContainer .LeftBox .LeftBoxContent .formContent button {
+  color: #fff !important;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.error-message {
+  margin: 0 !important;
+}
 .copyrights {
   display: flex;
   align-items: center;
