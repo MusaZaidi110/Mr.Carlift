@@ -84,3 +84,15 @@
   line-height: normal;
   letter-spacing: -0.64px;
 }
+
+@media screen and (max-width: 768px) {
+  .WhyChooseContainer .WhyChooseText {
+    flex-direction: column;
+  }
+  .WhyChooseText .TextContainer {
+    flex-direction: column;
+  }
+  .WhyChooseContainer hr {
+    height: 512px;
+  }
+}
