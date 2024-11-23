@@ -1,16 +1,16 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
-import "../index.css";
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
     <>
-      <div className="wrapper">
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
-      </div>
+      <Navbar />
+      <main>
+        <Outlet /> {/* This renders the child route */}
+      </main>
+      <Footer />
     </>
   );
 };

@@ -31,7 +31,7 @@ const PassangerFormJoin = () => {
       dropoffpoint: /^.{2,100}$/,
       pickuptime: /^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$/, // HH:mm format
       dropofftime: /^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$/, // HH:mm format
-      routedetails: /^.{0,500}$/, // Optional field with up to 500 characters
+      routedetails: /^.{0,500}$/,
     };
 
     if (!value.trim()) {
