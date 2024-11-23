@@ -76,4 +76,7 @@
   .AskedQuestion .AskedTextSection {
     width: 100%;
   }
+  .accordions .accordionSummary {
+    padding: 8px 16px !important;
+  }
 }
