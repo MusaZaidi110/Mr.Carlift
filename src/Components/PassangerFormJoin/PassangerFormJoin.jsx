@@ -199,7 +199,7 @@ const PassangerFormJoin = () => {
             <div className="twoinputs">
               <div className="input-wrapper">
                 <input
-                  type="text"
+                  type="time"
                   name="pickuptime"
                   id="pickuptime"
                   placeholder="Pick-Up Time"
@@ -213,7 +213,7 @@ const PassangerFormJoin = () => {
               </div>
               <div className="input-wrapper">
                 <input
-                  type="text"
+                  type="time"
                   name="dropofftime"
                   id="dropofftime"
                   placeholder="Drop-Off Time"
