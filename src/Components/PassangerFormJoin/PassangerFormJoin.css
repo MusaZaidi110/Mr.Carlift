@@ -71,11 +71,7 @@ textarea {
   padding: 18px;
   width: 100%;
 }
-.button {
-  display: block;
-  float: right;
-  margin-top: 16px;
-}
+
 .PassangerFormJoin .ImageSection {
   display: flex;
   align-items: center;

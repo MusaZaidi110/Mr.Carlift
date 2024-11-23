@@ -52,13 +52,6 @@
   line-height: 26px;
 }
 
-.HeroContent .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
 @media screen and (max-width: 768px) {
   .HeroContainer {
     height: 520px;

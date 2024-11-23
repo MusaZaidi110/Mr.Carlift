@@ -52,11 +52,31 @@ body {
   margin: 0 auto;
 }
 
+.button {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  gap: 22px;
+}
 button {
   background-color: #94d93b !important;
   color: var(--text-color) !important;
 }
+.error-input {
+  border: 2px solid red;
+}
 
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.input-wrapper {
+  width: 100%;
+}
+form {
+  width: 100%;
+}
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 28px !important;
