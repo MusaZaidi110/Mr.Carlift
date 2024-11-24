@@ -60,7 +60,6 @@ const Footer = () => {
         // Save data to Firebase under "ForUpdates" schema
         const forUpdatesRef = ref(database, "for-updates");
         await push(forUpdatesRef, formData);
-
         // Clear form and show success
         setFormData({ footername: "", footeremail: "" });
 
