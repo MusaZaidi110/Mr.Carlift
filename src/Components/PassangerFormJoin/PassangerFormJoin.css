@@ -131,7 +131,9 @@ textarea {
   text-align: left;
   margin-top: 10px;
 }
-
+.PassangerFormJoin button {
+  background-color: var(--primary-color);
+}
 @media screen and (max-width: 768px) {
   .PassangerFormJoin .FormSection h1 {
     font-size: 28px;

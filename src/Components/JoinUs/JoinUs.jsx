@@ -18,7 +18,9 @@ const JoinUs = () => {
     <>
       <div className="JoinUsContainer">
         <div className="JoinUsText">
-          <h1>Join Mr. Carlift as a Passenger or Driver</h1>
+          <h1>
+            Join <span>Mr. Carlift</span> as a Passenger or Driver
+          </h1>
           <p>
             Whether you're looking for a hassle-free commute or a flexible way
             to earn, Mr. Carlift is the perfect fit. Choose your role and start

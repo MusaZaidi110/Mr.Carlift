@@ -127,6 +127,7 @@ label {
 
 .dropDownContainer button {
   width: 200px;
+  background-color: var(--primary-color);
 }
 .EstimationResult {
   display: flex;
@@ -194,8 +195,13 @@ label {
   .formSection {
     width: 100%;
   }
-  .EstimationResult {
-    flex-direction: column;
+  .EstimateResultBox {
+    width: 140px;
+    padding: 8px 15px;
+  }
+  #monthlyestimationResult,
+  #weeklyestimationResult {
+    font-size: 20px !important;
   }
   .imgSection {
     display: none;

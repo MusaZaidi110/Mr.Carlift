@@ -19,7 +19,9 @@ const Hero = () => {
       <div className="HeroContainer">
         <div className="HeroContent">
           <div className="text">
-            <h1>Monthly Pick & Drop Service You Can Count On!</h1>
+            <h1>
+              Monthly <span>Pick & Drop</span> Service You Can Count On!
+            </h1>
             <p>
               Enjoy hassle-free, reliable pick and drop service every month with
               Mr. Carlift. Your commute made easy, safe, and affordable.

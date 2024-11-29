@@ -137,6 +137,9 @@
 .ContactFormMainSection .oneinput {
   width: 100%;
 }
+.ContactFormContainer button {
+  background-color: var(--primary-color);
+}
 .MuiButton-outlined {
   border: 2px solid var(--primary-color) !important;
   background-color: transparent !important;

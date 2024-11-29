@@ -24,6 +24,9 @@
   line-height: 144.45%;
   letter-spacing: -1.84px;
 }
+.JoinUsContainer .JoinUsText h1 span {
+  color: var(--primary-color);
+}
 .JoinUsContainer .JoinUsText p {
   color: #fff;
   text-align: center;
@@ -78,7 +81,9 @@
   line-height: normal;
   letter-spacing: -0.64px;
 }
-
+.JoinUsContainer button {
+  background-color: var(--primary-color);
+}
 @media screen and (max-width: 768px) {
   .JoinUsContainer .JoinUsText {
     width: 100%;

@@ -47,6 +47,9 @@
   font-size: 60px;
   line-height: 80px;
 }
+.HeroContent .text h1 span {
+  color: var(--primary-color);
+}
 .HeroContent .text p {
   font-size: 18px;
   line-height: 26px;
@@ -55,6 +58,9 @@
   display: flex;
   justify-content: center;
   gap: 22px;
+}
+.HeroContent .buttons button {
+  background-color: var(--primary-color);
 }
 @media screen and (max-width: 768px) {
   .HeroContainer {

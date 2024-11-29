@@ -108,6 +108,10 @@
   .WorkText {
     width: 100% !important;
   }
+  .Card {
+    max-width: 90%;
+    margin: 0 auto;
+  }
   .WorkText h1 {
     font-size: 34px !important;
   }

@@ -122,7 +122,9 @@ input {
   text-align: left;
   margin-top: 10px;
 }
-
+.DriverFormJoin button {
+  background-color: var(--primary-color);
+}
 @media screen and (max-width: 768px) {
   .DriverFormJoin .FormSection h1 {
     font-size: 28px;
